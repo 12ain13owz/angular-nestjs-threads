@@ -1,7 +1,5 @@
 # Threads App (Angular + NestJS)
 
-## Overview
-
 ## Folder Structure
 
 ```bash
@@ -29,7 +27,7 @@ cd angular-nestjs-threads
 
 ### 2. Configure Environment Variables
 
-create **development/.env.dev** add **MONGO_URI**
+create **development/.env.dev**
 
 ```env
 MONGO_URI=mongodb://localhost:27017/threads
