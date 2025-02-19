@@ -4,9 +4,10 @@
 
 ```bash
 angular-nestjs-threads/
-├── backend/       # NestJS Backend
-├── frontend/      # Angular Frontend
-├── README.md      # Project Documentation
+├── development/       # Environment Configs
+    ├── backend/       # NestJS Backend
+    ├── frontend/      # Angular Frontend
+├── README.md          # Project Documentation
 ```
 
 ## Prerequisites
@@ -27,7 +28,7 @@ cd angular-nestjs-threads
 
 ### 2. Configure Environment Variables
 
-create **development/.env.dev**
+create **backend/.env.dev**
 
 ```env
 MONGO_URI=mongodb://localhost:27017/threads
