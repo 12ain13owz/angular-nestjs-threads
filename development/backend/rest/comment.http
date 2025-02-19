@@ -1,0 +1,14 @@
+GET http://localhost:3000/comments HTTP/1.1
+
+###
+GET http://localhost:3000/comments?parentId=1 HTTP/1.1
+
+###
+POST http://localhost:3000/comments HTTP/1.1
+content-type: application/json
+
+{
+  "text": "inside third comment",
+  "userId": "67b43bef4efe7b0c98c97dbe",
+  "parentId": "67b44b21c83c6286b8d87559"
+}
